@@ -14,6 +14,7 @@ export const UtilExample = () => {
         }
         setNum(value)
     }, [setNum, setHex])
+    
     const hexToN = useCallback((e: ChangeEvent<HTMLInputElement>) => {
         const value = e.target.value
         try {
